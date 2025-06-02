@@ -1,6 +1,6 @@
 # 435. Non-overlapping Intervals
 
-O arquivo [LC435.py](./LC435.py) apresenta a resolução do exercício número 435 sobre greedy algorithms da plataforma LeetCode.
+O arquivo [LC435.py](.GreedLeetCode_Questoes/LC435.py) apresenta a resolução do exercício número 435 sobre greedy algorithms da plataforma LeetCode.
 
 A resolução foi aceita pela plataforma, conforme a **Figura 1** abaixo:
 
