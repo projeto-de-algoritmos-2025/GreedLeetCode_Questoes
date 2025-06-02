@@ -1,14 +1,14 @@
-# 632. Smallest Range Covering Elements from K Lists
+# 630. Smallest Range Covering Elements from K Lists
 
-O arquivo [LC632.py](./LC632.py) apresenta a resolução do exercício número 632 sobre greedy algorithms da plataforma LeetCode.
+O arquivo [LC630.py](./LC630.py) apresenta a resolução do exercício número 630 sobre greedy algorithms da plataforma LeetCode.
 
 A resolução foi aceita pela plataforma, conforme a **Figura 1** abaixo:
 
 <center>
 
-![Resolução 632.py](../assets\Questaohard.png)
+![Resolução 630.py](../assets\Questaohard.png)
 
-**Figura 1** - Resolução da questão 632.
+**Figura 1** - Resolução da questão 630.
 
 </center>
 

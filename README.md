@@ -30,8 +30,8 @@ A plataforma disponibiliza problemas classificados por dificuldade (fácil, méd
 
 | Exercício | Enunciado | Resolução | Dificuldade | Autor da Resolução |
 | :--: | -- | :--: | -- | -- |
-| 1 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/?envType=problem-list-v2&envId=greedy) | [LC122.py](./Exercício%20122/LC122.py) | Média | Guilherme Coelho Mendonça |
-| 2 | [2551. Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/?envType=problem-list-v2&envId=greedy) | [LC2551.py](./Exercício%202551/LC2551.py) | Difícil | Guilherme Coelho Mendonça |
+| 1 | [435. Non-overlapping Intervals](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/?envType=problem-list-v2&envId=greedy) | [LC122.py](./Exercício%20122/LC122.py) | Média | Guilherme Coelho Mendonça |
+| 2 | [630. Course Schedule III](https://leetcode.com/problems/put-marbles-in-bags/?envType=problem-list-v2&envId=greedy) | [LC2551.py](./Exercício%202551/LC2551.py) | Difícil | Guilherme Coelho Mendonça |
 
 
 ## Execução dos códigos na plataforma LeetCode

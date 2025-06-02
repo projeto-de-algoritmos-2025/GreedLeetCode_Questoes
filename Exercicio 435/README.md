@@ -1,14 +1,14 @@
-# 632. Smallest Range Covering Elements from K Lists
+# 435. Non-overlapping Intervals
 
-O arquivo [LC632.py](./LC632.py) apresenta a resolução do exercício número 632 sobre greedy algorithms da plataforma LeetCode.
+O arquivo [LC435.py](./LC435.py) apresenta a resolução do exercício número 435 sobre greedy algorithms da plataforma LeetCode.
 
 A resolução foi aceita pela plataforma, conforme a **Figura 1** abaixo:
 
 <center>
 
-![Resolução 632.py](../assets\Questaohard.png)
+![Resolução 435.py](../assets\Questaomedium.png)
 
-**Figura 1** - Resolução da questão 632.
+**Figura 1** - Resolução da questão 435.
 
 </center>
 
