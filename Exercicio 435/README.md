@@ -12,19 +12,25 @@ A resolução foi aceita pela plataforma, conforme a **Figura 1** abaixo:
 
 </center>
 
+
 ## Explicação da solução
 
-1. O algortimo inicializa o lucro_maximo_total como 0.
+1. O algoritmo ordena os intervalos com base no tempo de término (`end`) de cada intervalo.
 
-2. Itera pela matriz prices começando do segundo dia (1) até o último dia.
+2. Inicializa duas variáveis:
+   - `count` para contar quantos intervalos precisam ser removidos.
+   - `end` com o valor de término do primeiro intervalo.
 
-3. Para cada dia atual (i), compare seu preço prices[i] com o preço do dia anterior (i-1).
+3. Itera pelos intervalos a partir do segundo (índice 1):
 
-    3.1. O par de dias (dia i-1, dia i) forma um "intervalo de oportunidade".
+    3.1. Compara o início do intervalo atual com `end`.
 
-4. Se prices[i] > prices[i-1]: 
+4. Se o início (`start`) do intervalo atual for menor que `end`:
 
-    4.1. Há um lucro potencial neste intervalo: lucro_do_intervalo = prices[i] - prices[i-1].
-    4.2. Agenda esta transação e adicione lucro_do_intervalo ao lucro_maximo_total.
+    4.1. Existe sobreposição dai incrementa `count`, pois este intervalo deve ser removido.
 
-**Saída:** Após iterar por todos os intervalos diários possíveis, retorna o lucro_maximo_total.
+5. Caso contrário:
+
+    5.1. Atualiza `end` com o término do intervalo atual, pois ele será mantido.
+
+Saída: Após a iteração, retorna `count`, o número mínimo de intervalos a serem removidos para que não haja sobreposição ou conflito.

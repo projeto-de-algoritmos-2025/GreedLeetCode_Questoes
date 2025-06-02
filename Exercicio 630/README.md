@@ -14,17 +14,24 @@ A resolução foi aceita pela plataforma, conforme a **Figura 1** abaixo:
 
 ## Explicação da solução
 
-1. O algortimo inicializa o lucro_maximo_total como 0.
+## Explicação da solução
 
-2. Itera pela matriz prices começando do segundo dia (1) até o último dia.
+1. O algoritmo ordena os cursos com base na data limite (`last_day`) de cada curso.
 
-3. Para cada dia atual (i), compare seu preço prices[i] com o preço do dia anterior (i-1).
+2. Inicializa duas variáveis:
+   - `total_time` para acumular o tempo total gasto em cursos.
+   - `max_heap` para armazenar durações dos cursos cursados (como heap máximo).
 
-    3.1. O par de dias (dia i-1, dia i) forma um "intervalo de oportunidade".
+3. Itera por cada curso na ordem da data limite:
 
-4. Se prices[i] > prices[i-1]: 
+    3.1. Adiciona a duração do curso ao `total_time`.
 
-    4.1. Há um lucro potencial neste intervalo: lucro_do_intervalo = prices[i] - prices[i-1].
-    4.2. Agenda esta transação e adicione lucro_do_intervalo ao lucro_maximo_total.
+    3.2. Insere a duração do curso no `max_heap`.
 
-**Saída:** Após iterar por todos os intervalos diários possíveis, retorna o lucro_maximo_total.
+4. Se `total_time` exceder a data limite (`last_day`) do curso atual:
+
+    4.1. Remove o curso com maior duração do `max_heap` para reduzir o tempo total.
+
+    4.2. Atualiza `total_time` subtraindo a duração removida.
+
+Saída: Ao final, o tamanho do `max_heap` representa o número máximo de cursos que podem ser concluídos sem ultrapassar os prazos.
