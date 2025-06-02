@@ -6,7 +6,7 @@ A resolução foi aceita pela plataforma, conforme a **Figura 1** abaixo:
 
 <center>
 
-![Resolução 630.py](../assets\Questaohard.png)
+![Resolução 630.py](../assets/Questaohard.png)
 
 **Figura 1** - Resolução da questão 630.
 

@@ -6,7 +6,7 @@ A resolução foi aceita pela plataforma, conforme a **Figura 1** abaixo:
 
 <center>
 
-![435.py](../assets\Questaomedium.png)
+![435.py](../assets/Questaomedium.png)
 
 **Figura 1** - Resolução da questão 435.
 
