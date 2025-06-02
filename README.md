@@ -20,6 +20,7 @@ A plataforma [LeetCode](https://leetcode.com/) foi utilizada para selecionar e r
 
 As soluções apresentadas foram elaboradas focando nos conceitos explicados em sala de aula sobre algoritmos ambiciosos, como o *Interval Scheduling*.
 
+
 ## Sobre a LeetCode
 
 A [LeetCode](https://leetcode.com) é uma famosa plataforma (online) utilizada por programadores que querem desenvolver suas habilidades com os mais diversos conceitos e práticas de TI.
@@ -30,8 +31,8 @@ A plataforma disponibiliza problemas classificados por dificuldade (fácil, méd
 
 | Exercício | Enunciado | Resolução | Dificuldade | Autor da Resolução |
 | :--: | -- | :--: | -- | -- |
-| 1 | [435. Non-overlapping Intervals](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/?envType=problem-list-v2&envId=greedy) | [LC122.py](./Exercício%20122/LC122.py) | Média | Guilherme Coelho Mendonça |
-| 2 | [630. Course Schedule III](https://leetcode.com/problems/put-marbles-in-bags/?envType=problem-list-v2&envId=greedy) | [LC2551.py](./Exercício%202551/LC2551.py) | Difícil | Guilherme Coelho Mendonça |
+| 1 | [435. Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/?envType=problem-list-v2&envId=greedy) | [LC435.py](./Exercício%20122/LC435.py) | Média | Guilherme Coelho Mendonça |
+| 2 | [630. Course Schedule III](https://leetcode.com/problems/course-schedule-iii/description/?envType=problem-list-v2&envId=greedy) | [LC630.py](./Exercício%202551/LC630.py) | Difícil | Guilherme Coelho Mendonça |
 
 
 ## Execução dos códigos na plataforma LeetCode
